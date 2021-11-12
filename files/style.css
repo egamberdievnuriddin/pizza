@@ -1,0 +1,238 @@
+@import url('./files/fonts/font');
+
+:root{
+    --green: #68bf3b;
+    --sale: #68cd16;
+    --grstart: #6ad017;
+    --grend: #3d8802;
+    --txt: #a6a6a6;
+    --gradientbottom: #408c03;
+    --totti-txt: #bdbdbd;
+    --black-footer: #060503;
+}
+
+header{
+    background: url('./photos/header_bg.jpg') no-repeat center center / cover;
+}
+
+.header_logo{
+    text-transform: uppercase;
+    font-family: var(--mbold);
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+.contacts_header a{
+    font-family: var(--mregular);
+    font-size: 24px;
+    color: #fff;
+    line-height: 23px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.contacts_header button {
+    padding: 18px 41px 17px 39px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--green);
+    font-family: var(--mregular);
+    color: #fff;
+    font-size: 16px;
+    line-height: 12px;
+    transition: all .2s;
+}
+
+.contacts_header button:hover{
+    background-color: var(--grend);
+}
+
+header{
+    padding: 30px 0 274px 0;
+}
+
+.header-title{
+    margin-top: 228px;
+}
+
+.header-title p:first-child{
+    font-family: var(--mblack);
+    font-size: 18px;
+    color: #fff;
+    line-height: 13px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+.header-title h2{
+    font-size: 72px;
+    color: #fff;
+    font-family: var(--mblack);
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.header-title p:nth-child(3){
+    font-family: var(--mregular);
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 68px;
+}
+
+.header-title a{
+    background: linear-gradient(to top, var(--gradientbottom), var(--sale));
+    color: #fff;
+    font-family: var(--mregular);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 18px 47px 17px 45px;
+    border-radius: 25px;
+}
+
+.totti_right h4{
+    font-family: var(--mbold);
+    font-size: 36px;
+    color: var(--green);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.totti_right p{
+    font-family: var(--mregular);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--totti-txt);
+    line-height: 35px;
+}
+
+.totti-sign p{
+    margin-right: 60px;
+    font-family: var(--mbold);
+    font-size: 26px;
+    color: var(--totti-txt);
+    font-weight: 700;
+}
+
+main{
+    padding-top: 110px;
+}
+
+.menu-item_left{
+    background: url('./photos/Слой 1.jpg') no-repeat center center / cover;
+    padding: 45px 0 0 30px;
+    margin-right: 30px;
+}
+
+.menu-item_left span{
+    border-radius: 50%;
+    background-color: var(--sale);
+    padding: 15px 10px;
+    color: #fff;
+    font-family: var(--mbold);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.item_right-left h5{
+    font-family: var(--mbold);
+    font-size: 30px;
+    color: var(--txt);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.item_right-left p{
+    font-family: var(--mregular);
+    font-size: 14px;
+    color: var(--txt);
+}
+
+.item_right-right p span{
+    font-family: var(--mbold);
+    color: var(--txt);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.item_right-right p{
+    font-family: var(--mlight);
+    font-size: 18px;
+    color: var(--txt);
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.item_right-right a{
+    padding: 18px 51px 20px 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: linear-gradient(to top, var(--grend), var(--grstart));
+    color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all .2s;
+}
+
+.item_right-right a:hover{
+    background: linear-gradient(to top, var(--grstart), #2b6400);
+}
+
+.main-menu h3{
+    color: #e1f5d0;
+    font-size: 36px;
+    font-family: var(--mbold);
+    font-weight: 700;
+    margin: 89px 0 50px 0;
+
+}
+
+.menu-item{
+    margin-bottom: 50px;
+}
+
+.review{
+    margin-top: 150px;
+}
+
+.review-item img{
+    margin-bottom: 30px;
+    width: 350px;
+}
+
+.review-item h5{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: var(--mbold);
+    color: var(--txt);
+    font-weight: 700;
+}
+
+.review-item p{
+    font-size: 14px;
+    font-family: var(--mregular);
+    color: var(--txt);
+    font-weight: 400;
+}
+
+footer{
+    background-color: var(--black-footer);
+    padding-top: 30px;
+    margin-top: 84px;
+}
+
+.copyright p{
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--mthin);
+    font-weight: 100;
+    padding: 50px 0 55px 0;
+    margin: 0 !important;
+}
+
+
+
+
